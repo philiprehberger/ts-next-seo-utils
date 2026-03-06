@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/next-seo-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,7 +20,8 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "test": "node --test src/__tests__/index.test.mjs"
   },
   "keywords": ["next.js", "seo", "metadata", "json-ld", "open-graph", "structured-data"],
   "author": "Philip Rehberger",
@@ -32,5 +33,9 @@
     "next": "^15.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/philiprehberger/next-seo-utils.git" },
+  "homepage": "https://github.com/philiprehberger/next-seo-utils#readme",
+  "bugs": { "url": "https://github.com/philiprehberger/next-seo-utils/issues" },
+  "engines": { "node": ">=18.0.0" }
 }
