@@ -1,11 +1,11 @@
-# @philiprehberger/ts-next-seo-utils
+# @philiprehberger/next-seo-utils
 
 Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-next-seo-utils
+npm install @philiprehberger/next-seo-utils
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @philiprehberger/ts-next-seo-utils
 ### Metadata Generator
 
 ```ts
-import { createMetadataGenerator } from '@philiprehberger/ts-next-seo-utils';
+import { createMetadataGenerator } from '@philiprehberger/next-seo-utils';
 
 const seo = createMetadataGenerator({
   name: 'My Site',
@@ -37,7 +37,7 @@ export const metadata = seo.generateRootMetadata();
 ### JSON-LD Structured Data
 
 ```ts
-import { organizationJsonLd, faqJsonLd, breadcrumbJsonLd, jsonLdScript } from '@philiprehberger/ts-next-seo-utils';
+import { organizationJsonLd, faqJsonLd, breadcrumbJsonLd, jsonLdScript } from '@philiprehberger/next-seo-utils';
 
 const org = organizationJsonLd({
   name: 'My Company',
