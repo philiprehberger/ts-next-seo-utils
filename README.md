@@ -1,6 +1,6 @@
 # @philiprehberger/next-seo-utils
 
-[![CI](https://github.com/philiprehberger/next-seo-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/next-seo-utils/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/next-seo-utils/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/next-seo-utils/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/next-seo-utils.svg)](https://www.npmjs.com/package/@philiprehberger/next-seo-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/next-seo-utils)](LICENSE)
 
@@ -60,6 +60,15 @@ const breadcrumbs = breadcrumbJsonLd([
 
 // Render as script tag
 const scriptTag = jsonLdScript(org);
+```
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
 ```
 
 ## License
