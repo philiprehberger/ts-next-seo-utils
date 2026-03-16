@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/next-seo-utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
