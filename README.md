@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/next-seo-utils.svg)](https://www.npmjs.com/package/@philiprehberger/next-seo-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/next-seo-utils)](LICENSE)
 
-Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers.
+Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers
 
 ## Installation
 
