@@ -2,7 +2,7 @@ import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
 describe('next-seo-utils', async () => {
-  const mod = await import('../../dist/index.mjs');
+  const mod = await import('../../dist/index.js');
 
   it('exports createMetadataGenerator as a function', () => {
     assert.ok(typeof mod.createMetadataGenerator === 'function');
