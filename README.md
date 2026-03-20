@@ -1,6 +1,6 @@
 # @philiprehberger/next-seo-utils
 
-[![CI](https://github.com/philiprehberger/next-seo-utils/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/next-seo-utils/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/next-seo-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/next-seo-utils/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/next-seo-utils.svg)](https://www.npmjs.com/package/@philiprehberger/next-seo-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/next-seo-utils)](LICENSE)
 
@@ -62,6 +62,35 @@ const breadcrumbs = breadcrumbJsonLd([
 const scriptTag = jsonLdScript(org);
 ```
 
+## API
+
+### Metadata
+
+| Function | Signature | Description |
+|----------|-----------|-------------|
+| `createMetadataGenerator` | `(site: SiteConfig) => { generatePageMetadata, generateArticleMetadata, generateRootMetadata }` | Create a metadata generator bound to your site config. |
+
+#### Returned methods
+
+| Method | Signature | Description |
+|--------|-----------|-------------|
+| `generatePageMetadata` | `(options: PageMetadataOptions) => Metadata` | Generate metadata for a single page. |
+| `generateArticleMetadata` | `(options: ArticleMetadataOptions) => Metadata` | Generate article-specific metadata with Open Graph article fields. |
+| `generateRootMetadata` | `(overrides?: Partial<Metadata>) => Metadata` | Generate root layout metadata with title template. |
+
+### JSON-LD
+
+| Function | Signature | Description |
+|----------|-----------|-------------|
+| `organizationJsonLd` | `(org: OrganizationConfig) => JsonLdBase` | Organization structured data. |
+| `websiteJsonLd` | `(site: SiteConfig) => JsonLdBase` | WebSite structured data. |
+| `breadcrumbJsonLd` | `(items: BreadcrumbItem[]) => JsonLdBase` | Breadcrumb navigation structured data. |
+| `articleJsonLd` | `(options) => JsonLdBase` | Article structured data. |
+| `faqJsonLd` | `(items: FAQItem[]) => JsonLdBase` | FAQ page structured data. |
+| `serviceJsonLd` | `(service: ServiceItem, provider) => JsonLdBase` | Service structured data. |
+| `localBusinessJsonLd` | `(options) => JsonLdBase` | Local business structured data. |
+| `reviewAggregateJsonLd` | `(itemName: string, reviews: ReviewItem[], itemType?: string) => JsonLdBase` | Aggregate review structured data. |
+| `jsonLdScript` | `(data: JsonLdBase \| JsonLdBase[]) => string` | Wrap JSON-LD data in a `<script>` tag string. |
 
 ## Development
 
