@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-next-seo-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-next-seo-utils/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/next-seo-utils.svg)](https://www.npmjs.com/package/@philiprehberger/next-seo-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-next-seo-utils)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers
 
