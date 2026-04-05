@@ -1,8 +1,8 @@
 # @philiprehberger/next-seo-utils
 
-[![CI](https://github.com/philiprehberger/next-seo-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/next-seo-utils/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-next-seo-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-next-seo-utils/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/next-seo-utils.svg)](https://www.npmjs.com/package/@philiprehberger/next-seo-utils)
-[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/next-seo-utils)](https://github.com/philiprehberger/next-seo-utils/commits/main)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-next-seo-utils)](https://github.com/philiprehberger/ts-next-seo-utils/commits/main)
 
 Next.js SEO utilities: metadata generators, JSON-LD schemas, and Open Graph helpers
 
@@ -104,11 +104,11 @@ npm test
 
 If you find this project useful:
 
-⭐ [Star the repo](https://github.com/philiprehberger/next-seo-utils)
+⭐ [Star the repo](https://github.com/philiprehberger/ts-next-seo-utils)
 
-🐛 [Report issues](https://github.com/philiprehberger/next-seo-utils/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+🐛 [Report issues](https://github.com/philiprehberger/ts-next-seo-utils/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
-💡 [Suggest features](https://github.com/philiprehberger/next-seo-utils/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+💡 [Suggest features](https://github.com/philiprehberger/ts-next-seo-utils/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
 ❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
 
